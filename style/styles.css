@@ -147,6 +147,7 @@ h1{
     background-color: #d5d5f0;
     padding: .5em;
     box-shadow: 0 0 14px 2px rgba(0,0,0, .8);
+    border: 2px solid black;
 
 }
 
