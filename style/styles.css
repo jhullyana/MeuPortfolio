@@ -234,6 +234,25 @@ h1{
     background-color: #3a6391;
 }
 
+.contato-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+.contato-container img{
+        width: 15vh;
+        height: auto;
+        object-fit: contain;/*Imagem sem distorcer*/
+        transition: transform 0.3s ease; /*Animação quando passar o mouse*/
+            
+}
+
+.contato-container img:hover {
+    transform: scale(1.5);
+
+}
+
 
 @media (max-width: 768px) {
 
